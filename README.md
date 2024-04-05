@@ -87,7 +87,6 @@
 	...
 		
 	// Good example
-	// Bad example
 	const handleEditButtonClick = () => {
 		setShowAddEditModal(true);
 	};
