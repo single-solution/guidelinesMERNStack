@@ -1,4 +1,4 @@
-# Coding Practices Guide 🚀 by *[Single-Solution](https://single-solution.com/)*
+# Development Guide 🚀 by *[Single-Solution](https://single-solution.com/)*
 
 ## Naming Conventions
 
