@@ -52,7 +52,7 @@
 	}
 	```
 	
-	```
+	```javascript
 	// Example of class with camelCase
 	class animalShelter {
 		constructor() {
