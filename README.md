@@ -194,6 +194,9 @@ This README outlines the structure of a typical MERN (MongoDB, Express.js, React
 		- 📄 helpers.js
 		...
 	  - 📁 views
+		- 📁 components
+			- 📁 home
+				-  📄 FeaturedProducts.jsx
 		- 📁 partials
 			-  📄 Header.jsx
 			-  📄 Breadcrumb.jsx
@@ -307,6 +310,9 @@ This README outlines the structure of a typical MERN (MongoDB, Express.js, React
 		- 📄 helpers.js
 		...
 	  - 📁 views
+		- 📁 components
+			- 📁 home
+				-  📄 FeaturedProducts.jsx
 		- 📁 partials
 			-  📄 Header.jsx
 			-  📄 Breadcrumb.jsx
