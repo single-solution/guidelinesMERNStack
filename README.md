@@ -25,7 +25,8 @@
 - Use **PascalCase** for class names and function only if they render any view.
 - Use **camelCase** for class names and function if they do not render any view.
 - Class names should be **nouns** representing the entity they model.
-```javascript
+
+	```javascript
 	// Example of function following the guideline
 	function calculateTotalPrice(itemPrice, quantity) {
 		return itemPrice * quantity;
@@ -49,7 +50,9 @@
 			console.log(`Driving ${this.make} ${this.model}`);
 		}
 	}
-
+	```
+	
+	```
 	// Example of class with camelCase
 	class animalShelter {
 		constructor() {
