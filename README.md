@@ -25,9 +25,7 @@
 - Use **PascalCase** for class names and function only if they render any view.
 - Use **camelCase** for class names and function if they do not render any view.
 - Class names should be **nouns** representing the entity they model.
-- Function names may start with a **non-continuous verbs** then their will be **nouns** representing the entity they model.
-
-	```javascript
+```javascript
 	// Example of function following the guideline
 	function calculateTotalPrice(itemPrice, quantity) {
 		return itemPrice * quantity;
@@ -67,6 +65,32 @@
 		}
 	}
 	```
+	
+- Function names should start with a **non-continuous verbs** then their will be **nouns** representing the entity they model.
+
+	```javascript  
+	// Bad example
+	const handleEditModal = () => {
+		setShowAddEditModal(true);
+	};
+	
+	const clickEditModal = () => {
+		setShowAddEditModal(true);
+	};
+	
+	const clickEditbutton = () => {
+		setShowAddEditModal(true);
+	};
+	...
+		
+	// Good example
+	// Bad example
+	const handleEditButtonClick = () => {
+		setShowAddEditModal(true);
+	};
+	...
+	```
+	
 
 ### Constants
 - Use **SCREAMING_SNAKE_CASE** for constants.
@@ -103,6 +127,7 @@ For example, if a word is underlined in blue by the code spell checker indicatin
 - Always try to make the main file like a **Blogs.jsx** file in root folder and if  this blogs file has components then create the folder with same name using **camelCase** in the and place blogs partial files there
 
 ### File Naming
+- When a page displays multiple records, the filename should be plural. For pages displaying a single entity or detail, use a singular filename.
 - Use descriptive filenames that reflect the content or purpose of the file.
 - Follow a consistent naming convention across the project.
 
